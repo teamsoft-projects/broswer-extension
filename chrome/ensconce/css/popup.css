@@ -1,0 +1,26 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.outer {
+    width: 132px;
+    padding: 15px;
+}
+
+.outer .item {
+    display: flex;
+    padding: 8px;
+}
+
+.outer .item > label {
+    margin-top: 2px;
+    margin-right: 12px;
+    width: 72px;
+}
+
+.outer .item > span {
+    zoom: 60%;
+}
